@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    entrypoint: .docker/entrypoint.sh
+    container_name: node-app-example
+    ports:
+      - "3333:3333"
+    volumes:
+      - .:/home/node/app
+
+  redis:
+    image: redis
+    container_name: node-app-redis
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - 6379:6379
+
+  redis-commander:
+    container_name: node-app-redis-commander
+    image: rediscommander/redis-commander
+    restart: always
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+    ports:
+      - "8081:8081"
