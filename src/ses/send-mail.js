@@ -23,5 +23,5 @@ export const send_mail = ({ from, recipients, subject, html }) => {
 			},
 		},
 	};
-	return SES.send_mail(params).promise();
+	return SES.sendEmail(params).promise();
 };
