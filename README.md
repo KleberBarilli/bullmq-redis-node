@@ -5,13 +5,13 @@
 
 ## 📑 Sobre o projeto
 
-Api simples para enviar emails usando filas
+Api simples para enviar emails usando filas. O código foi baseado na série Masterclass #02 da Rocketseat
 
 ## ✍🏻 Funcionalidades
 
 A aplicação conta com as seguintes funcionalidades:
 
-- Envio de emails usando filas
+- Envio de emails com o Aws Ses usando filas
 
 ## 🛠 Bibliotecas
 
