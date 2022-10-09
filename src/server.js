@@ -9,7 +9,7 @@ app.use(express.json());
 app.post('/', async (req, res) => {
     const { emails } = req.body;
 
-    await queue.add('send-mail', { from:'psicoid@psicoid.com.br', recipients: emails, subject: 'Subject', html: '<p>Hello World</p>' })
+    await queue.add('send-mail', { from:'youremailverify@email.com', recipients: emails, subject: 'Subject', html: '<p>Hello World</p>' })
 
     return res.status(200).json({ message: 'E-mails sent' });
 })
