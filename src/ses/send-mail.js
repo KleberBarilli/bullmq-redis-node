@@ -3,7 +3,7 @@ import aws_config from '../config/aws';
 
 const SES = new AWS.SES(aws_config);
 
-export const sendEmail = ({ from, recipients, subject, html }) => {
+export const send_mail = ({ from, recipients, subject, html }) => {
 	let params = {
 		Source: from,
 		Destination: {
@@ -23,5 +23,5 @@ export const sendEmail = ({ from, recipients, subject, html }) => {
 			},
 		},
 	};
-	return SES.sendEmail(params).promise();
+	return SES.send_mail(params).promise();
 };
