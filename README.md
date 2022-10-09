@@ -1,6 +1,10 @@
 
 # BULLMQ-REDIS-NODE-EXAMPLE
 
+<h1 align="center">
+  <img alt="Bull" src="https://user-images.githubusercontent.com/95200/143832033-32e868df-f3b0-4251-97fb-c64809a43d36.png" width="720px"/>
+</h1>
+
 ## 📑 Sobre o projeto
 
 Api simples para enviar emails usando filas. O código foi baseado na série Masterclass #02 da Rocketseat
