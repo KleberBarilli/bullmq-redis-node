@@ -32,6 +32,9 @@ $ npm install ou yarn
 
 $ docker-compose up
 ```
+<h1 align="center">
+  <img alt="Request" src="https://kleber-barilli-public.s3.amazonaws.com/insomnia.png" width="120px" />
+</h1>
 
 ```
 # Para acessar a interface do redis commander no navegador
