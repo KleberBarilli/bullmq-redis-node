@@ -35,6 +35,12 @@ $ npm install ou yarn
 $ docker-compose up
 ```
 
+```
+# Para acessar a interface do redis commander no navegador
+
+$ http://127.0.0.1:8081/
+```
+
 ## Sugestões 🗣
 
 Caso tenha alguma sugestão ou queira reportar algum bug, abra um issue no repositório. Ficarei muito grata/o com a sua colaboração! 🤝
