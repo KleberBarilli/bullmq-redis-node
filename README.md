@@ -6,7 +6,7 @@
 Api simples para enviar emails usando filas. O código foi baseado na série Masterclass #02 da Rocketseat
 
 <h1 align="center">
-  <img alt="Request" src="https://kleber-barilli-public.s3.amazonaws.com/insomnia.png" width="720px"/>
+  <img alt="Request" src="https://kleber-barilli-public.s3.amazonaws.com/insomnia-request.png" width="720px"/>
 </h1>
 
 ## ✍🏻 Funcionalidades
