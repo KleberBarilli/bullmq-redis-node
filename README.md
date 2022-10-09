@@ -1,8 +1,6 @@
 
 # BULLMQ-REDIS-NODE-EXAMPLE
 
-> Overview da aplicação.
-
 ## 📑 Sobre o projeto
 
 Api simples para enviar emails usando filas. O código foi baseado na série Masterclass #02 da Rocketseat
