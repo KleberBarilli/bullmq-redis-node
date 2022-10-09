@@ -13,9 +13,6 @@ A aplicação conta com as seguintes funcionalidades:
 
 - Envio de emails usando filas
 
-## 📆 Implementações futuras e melhorias
-
-
 ## 🛠 Bibliotecas
 
 Utiliza as seguintes bibliotecas de suporte:
